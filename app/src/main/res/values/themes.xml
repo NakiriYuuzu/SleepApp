@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sleep" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryColor</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/secondaryColor</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/secondaryColor</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/secondaryColor</item>
+    </style>
+
+    <style name="Style_CustomText_Light" parent="">
+        <item name="android:textColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="CardView_User_Drawable" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/md_theme_light_tertiary</item>
+    </style>
+
+    <style name="Style_CustomLoginBackground" parent="">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_BottomRounded</item>
+        <item name="cardBackgroundColor">@color/mainColor</item>
+    </style>
+
+    <style name="Style_CustomDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">@color/md_theme_light_background</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_Rounded</item>
+        <item name="materialAlertDialogTitlePanelStyle">@style/Title.Panel.Center</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/Message.Center</item>
+    </style>
+
+    <style name="CustomCardCorners_BottomLeft" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_BottomLeft</item>
+        <item name="cardBackgroundColor">@color/mainColor</item>
+    </style>
+
+    <style name="CustomCardCorners_BottomRight" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_BottomRight</item>
+        <item name="cardBackgroundColor">@color/mainColor</item>
+    </style>
+
+    <style name="CustomCardCorners_TopLeft" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_TopLeft</item>
+        <item name="cardBackgroundColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="CustomCardCorners_TopRight" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_TopRight</item>
+        <item name="cardBackgroundColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="CustomCardCorners_ALL" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance_custom_corners_Rounded</item>
+        <item name="cardBackgroundColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_BottomLeft" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_BottomRight" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomRight">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_TopLeft" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_TopRight" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners_BottomRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">25dp</item>
+        <item name="cornerSizeBottomRight">25dp</item>
+    </style>
+
+    <style name="Title.Panel.Center" parent="MaterialAlertDialog.MaterialComponents.Title.Panel">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Message.Center" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>
